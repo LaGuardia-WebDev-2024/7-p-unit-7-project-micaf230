@@ -1,12 +1,12 @@
 body {
-  background-color: black;
+  background-color: pink;
   text-align: center;
   color: white;
 }
 
 
 #myCanvas {
-  background-image: url("https://images.pexels.com/photos/1387577/pexels-photo-1387577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-image: url("https://cdn.glitch.global/6f32b003-f5fc-4ff9-89cd-fc5bc92d6c5d/Screenshot%202025-01-14%20at%2010.41.05%E2%80%AFAM.png?v=1736869295610");
   background-size: 400px;
   border-radius: 30px;
   border: 1px solid rgb(255,245,227);

@@ -1,18 +1,17 @@
 <!-- Unit 7 Project
 Requirements
-[  ] three variables
-[  ] animation that moves position
-[  ] animation that changes size
-[  ] three new HTML elements/CSS Declarations
+[ x ] three variables
+[ x ] animation that moves position
+[ x ] animation that changes size
+[ x ] three new HTML elements/CSS Declarations
 
 Select ONE Additional 
 [ no ] Feature 1 - Use an Incrementing Shortcut 
 [ no ] Feature 2 - Move Object with Mouse
 [ no ] Feature 3 - Repeat Animation
-[ no ] Feature 4 - Text on the Canvas
+[ x ] Feature 4 - Text on the Canvas
 [ no ] Feature 5 - Animate a color change
 -->
-
 
 <!DOCTYPE html>
 <html>
@@ -22,25 +21,49 @@ Select ONE Additional
     <title>Unit 7 Project</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js"></script>
-    <style></style>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: black;
+      }
+
+      h1 {
+        color: red;
+      }
+
+      .main {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      canvas {
+        border: 2px solid pink;
+      }
+
+      footer {
+        margin-top: 30px;
+        font-size: 14px;
+      }
+    </style>
   </head>
 
   <body>
-    <h1>
-      New Year, New Me
-    </h1>
+    <h1>New Year, New Me</h1>
     <div class="main">
-      <canvas id="myCanvas" data-processing-sources="myP5Code.pde"> </canvas>
+      <canvas id="myCanvas" data-processing-sources="myP5Code.pde"></canvas>
       <div>
-        <h2>
-          2025 Goals
-        </h2>
+        <h2>2025 Goals</h2>
         <ol>
-          <li>Spend More Time Coding </li>
+          <li>Make more art</li>
+          <li>Learn how to animate</li>
+          <li>get healthier</li>
         </ol>
       </div>
     </div>
-        
+    <footer>Created with ❤️ in 2025</footer>
   </body>
 </html>
 
